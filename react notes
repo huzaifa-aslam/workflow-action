@@ -8,11 +8,56 @@ npm run build
 
 surge ./build
 
+********React Router Dom***********
+
+npm install react-router-dom
+
+
 ********deploying on surge***********
 
 1- npm install -g surge
 2- surge login
 3- surge
+
+********Material UI***********
+
+1- npm install @material-ui/core    // to install materila ui 
+
+
+  or
+
+
+yarn add @material-ui/core
+
+
+2- npm install @material-ui/icons
+
+      or
+
+yarn add @material-ui/icons
+
+
+********COVID-TRACKER-APP***********
+
+npm install --save axios react-chartjs-2 react-countup classnames
+
+********covid tracker***********
+
+http://huzaifa-aslam-covid-tracker.surge.sh/
+
+********auto focus on tag***********
+
+npm install @wellyshen/use-web-animations
+
+********TypeSript***********
+
+1-  npm install typescript@beta
+2- npm init
+
+tsc folder-name/filename.ext // to run ts file
+
+******** React with TypeSript***********
+npx create-react-app project-name --template typescript
 
 ********actions workflow***********
 # This is a basic workflow to help you get started with Actions
