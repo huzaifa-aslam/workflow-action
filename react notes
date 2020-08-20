@@ -12,7 +12,25 @@ surge ./build
 
 npm install react-router-dom
 
+********typing effect***********
 
+npm i --save react-typing-animation
+
+import Typing from 'react-typing-animation';
+ 
+const AnimatedTypingComponent = () => (
+  <Typing>
+    <span>This span will get typed.</span>
+  </Typing>
+);
+
+********Serve***********
+
+yarn global add serve && serve -s build
+
+npm i serve  // to install
+
+serve -s build
 ********deploying on surge***********
 
 1- npm install -g surge
