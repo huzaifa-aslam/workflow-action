@@ -24,6 +24,22 @@ const AnimatedTypingComponent = () => (
   </Typing>
 );
 
+********GraphQL***********
+
+https://www.apollographql.com/docs/react/
+
+https://www.apollographql.com/docs/apollo-server/getting-started/    // visit this for graphQL setup
+
+run "node filename" for checking
+
+press alt+space for data suggestin
+
+rules for typescript in graphQL
+type typename{
+  name:String // "S" should be capital of string
+  age:Int     // use "Int" instead of 'number'
+}
+
 ********Serve***********
 
 yarn global add serve && serve -s build
@@ -76,6 +92,11 @@ tsc folder-name/filename.ext // to run ts file
 
 ******** React with TypeSript***********
 npx create-react-app project-name --template typescript
+
+or
+
+npx create-react-app my-new-app --typescript
+
 
 ********actions workflow***********
 # This is a basic workflow to help you get started with Actions
